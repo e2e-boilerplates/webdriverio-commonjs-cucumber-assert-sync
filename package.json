@@ -6,10 +6,6 @@
     "test": "npx wdio wdio.conf.js",
     "lint": "npx eslint --ext .js ./ --fix"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/e2e-boilerplates/webdriverio-commonjs-cucumber-assert.git"
-  },
   "keywords": [
     "webdriverio",
     "cucumber",
@@ -18,10 +14,6 @@
   ],
   "author": "Girma Nigusse",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/e2e-boilerplates/webdriverio-commonjs-cucumber-assert/issues"
-  },
-  "homepage": "https://github.com/e2e-boilerplates/webdriverio-commonjs-cucumber-assert#readme",
   "devDependencies": {
     "@wdio/cli": "^5.15.2",
     "@wdio/cucumber-framework": "^5.15.1",
@@ -35,10 +27,17 @@
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
     "prettier": "^1.18.2",
+    "pretty-quick": "^2.0.0",
     "wdio-chromedriver-service": "^5.0.2"
   },
   "dependencies": {
     "cucumber": "^6.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
