@@ -7,7 +7,7 @@ BeforeAll(async () => {
 
 Given("I am on the Google search page", async () => {
   const searchBox = await $(".gLFyf.gsfi");
-  searchBox.waitForDisplayed(5000);
+  await searchBox.waitForDisplayed(5000);
 
   const title = await browser.getTitle();
   assert.strictEqual(title, "Google");
