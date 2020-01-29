@@ -10,7 +10,7 @@ When(/^I am on the sandbox page$/, () => {
   strictEqual(title, "Sandbox");
 });
 
-Then(/^The page header should be "([^"]*)"$/, async expectedHeader => {
-  const header = await $("h1").getText();
+Then(/^The page header should be "([^"]*)"$/, expectedHeader => {
+  const header = $("h1").getText();
   strictEqual(header, expectedHeader);
 });
