@@ -1,16 +1,16 @@
 const { Given, When, Then } = require("cucumber");
-const assert = require("assert");
+const { strictEqual } = require("assert");
 
-Given(/^Navigate to the sandbox$/, function() {
+Given(/^Navigate to the sandbox$/, () => {
   browser.url("https://e2e-boilerplates.github.io/sandbox/");
 });
 
-When(/^I am on the sandbox page$/, function() {
+When(/^I am on the sandbox page$/, () => {
   const title = browser.getTitle();
-  assert.strictEqual(title, "Sandbox");
+  strictEqual(title, "Sandbox");
 });
 
-Then(/^The page header should be "([^"]*)"$/, function(expectedHeader) {
-  const header = $("h1").getText();
-  assert.strictEqual(header, expectedHeader);
+Then(/^The page header should be "([^"]*)"$/, async expectedHeader => {
+  const header = await $("h1").getText();
+  strictEqual(header, expectedHeader);
 });

@@ -1,12 +1,12 @@
-# WebdriverIO (sync): (commonjs, cucumber, assert)
+# WebdriverIO : (CommonJS, CucumberJS, Assert)
 
-[![GitHub Actions status | e2e-boilerplates/webdriverio-commonjs-cucumber-assert-sync](https://github.com/e2e-boilerplates/webdriverio-commonjs-cucumber-assert-sync/workflows/webdriverio-commonjs-cucumber-assert-sync/badge.svg)](https://github.com/e2e-boilerplates/webdriverio-commonjs-cucumber-assert-sync/actions?workflow=webdriverio-commonjs-cucumber-assert-sync)
+[![GitHub Actions status | e2e-boilerplates/webdriverio-commonjs-cucumber-assert](https://github.com/e2e-boilerplates/webdriverio-commonjs-cucumber-assert/workflows/webdriverio-commonjs-cucumber-assert/badge.svg)](https://github.com/e2e-boilerplates/webdriverio-commonjs-cucumber-assert/actions?workflow=webdriverio-commonjs-cucumber-assert)
 
-WebdriverIO end-to-end test automation boilerplate project. Using cucumber, commonjs, &amp; assert.
+WebdriverIO end-to-end test automation boilerplate, using CommonJS, CucumberJS, Assert.
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/webdriverio-commonjs-cucumber-assert-sync.git
-    cd webdriverio-commonjs-cucumber-assert-sync
+    git clone git@github.com:e2e-boilerplates/webdriverio-commonjs-cucumber-assert.git
+    cd webdriverio-commonjs-cucumber-assert
     npm install
     npm run test

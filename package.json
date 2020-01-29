@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "WebdriverIO (sync) end-to-end test automation boilerplate project. Using cucumber, commonjs, and assert",
   "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx wdio wdio.conf.js",
-    "test-ci": "npx wdio wdio-ci.conf.js",
-    "lint": "npx eslint --ext .js ./ --fix"
+    "test-ci": "npx wdio wdio-ci.conf.js"
   },
   "keywords": [
     "webdriverio",
