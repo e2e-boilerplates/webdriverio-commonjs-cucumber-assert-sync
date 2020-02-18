@@ -1,19 +1,20 @@
 {
-  "name": "webdriverio-commonjs-cucumber-assert-sync",
+  "name": "webdriverio-commonjs-cucumberjs-assert",
   "version": "1.0.0",
-  "description": "WebdriverIO (sync) end-to-end test automation boilerplate project. Using cucumber, commonjs, and assert",
+  "description": "WebdriverIO end-to-end test automation boilerplate, using CucumberJS, CommonJS and Assert",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx wdio wdio.conf.js",
-    "test-ci": "npx wdio wdio-ci.conf.js"
+    "test": "npx wdio"
   },
   "keywords": [
     "webdriverio",
     "commonjs",
-    "cucumber",
+    "cucumberjs",
     "assert",
     "boilerplate",
-    "example"
+    "example",
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse",
   "license": "MIT",
@@ -30,6 +31,7 @@
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-wdio": "^5.13.2",
     "husky": "4.2.3",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",

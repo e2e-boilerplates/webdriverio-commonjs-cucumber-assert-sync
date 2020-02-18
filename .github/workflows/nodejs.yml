@@ -1,4 +1,4 @@
-name: webdriverio-commonjs-cucumber-assert
+name: webdriverio-commonjs-cucumberjs-assert
 
 on:
   push:
@@ -25,4 +25,4 @@ jobs:
           npm run lint
       - name: TEST
         run: |
-          npm run test-ci
+          npm run test
