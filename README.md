@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/webdriverio-commonjs-cucumber-assert](https://github.com/e2e-boilerplate/webdriverio-commonjs-cucumber-assert/workflows/webdriverio-commonjs-cucumber-assert/badge.svg)](https://github.com/e2e-boilerplate/webdriverio-commonjs-cucumber-assert/actions?workflow=webdriverio-commonjs-cucumber-assert)
+[![GitHub Actions status | e2e-boilerplate/webdriverio-commonjs-cucumber-assert](https://github.com/e2e-boilerplate/webdriverio-commonjs-cucumber-assert/workflows/webdriverio-commonjs-cucumber-assert/badge.svg)](https://github.com/e2e-boilerplate/webdriverio-commonjs-cucumber-assert/actions?workflow=webdriverio-commonjs-cucumber-assert) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # WebdriverIO Boilerplate
 
