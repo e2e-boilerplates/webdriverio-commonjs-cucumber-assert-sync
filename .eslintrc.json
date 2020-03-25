@@ -8,5 +8,7 @@
     "plugin:prettier/recommended",
     "plugin:wdio/recommended"
   ],
-  "plugins": ["wdio"]
+  "plugins": [
+    "wdio"
+  ]
 }
