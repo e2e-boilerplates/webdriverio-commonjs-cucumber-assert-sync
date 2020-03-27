@@ -10,7 +10,7 @@ When(/^I am on the sandbox page$/, () => {
   assert.strictEqual(title, "Sandbox");
 });
 
-Then(/^The page header should be "([^"]*)"$/, expectedHeader => {
+Then(/^The page header should be "([^"]*)"$/, (expectedHeader) => {
   const header = $("h1").getText();
   assert.strictEqual(header, expectedHeader);
 });

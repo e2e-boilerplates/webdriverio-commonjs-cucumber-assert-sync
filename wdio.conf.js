@@ -4,17 +4,17 @@ const headed = {
   specs: ["./features/*.feature"],
   capabilities: [
     {
-      browserName: "chrome"
-    }
+      browserName: "chrome",
+    },
   ],
   services: ["chromedriver"],
   logLevel: "silent",
   framework: "cucumber",
   cucumberOpts: {
     require: ["./features/step_definitions/stepdefs.js"],
-    timeout: 60000
+    timeout: 60000,
   },
-  reporters: ["dot"]
+  reporters: ["dot"],
 };
 
 const headless = {
@@ -25,18 +25,18 @@ const headless = {
     {
       browserName: "chrome",
       "goog:chromeOptions": {
-        args: ["--headless", "--disable-gpu"]
-      }
-    }
+        args: ["--headless", "--disable-gpu"],
+      },
+    },
   ],
   services: ["chromedriver"],
   logLevel: "silent",
   framework: "cucumber",
   cucumberOpts: {
     require: ["./features/step_definitions/stepdefs.js"],
-    timeout: 60000
+    timeout: 60000,
   },
-  reporters: ["dot"]
+  reporters: ["dot"],
 };
 
 const config = process.env.GITHUB_ACTIONS ? headless : headed;
