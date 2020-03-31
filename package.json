@@ -4,9 +4,9 @@
     "url": "https://github.com/e2e-boilerplate/webdriverio-commonjs-cucumber-assert/issues"
   },
   "dependencies": {
-    "@wdio/cli": "6.0.8",
+    "@wdio/cli": "6.0.9",
     "@wdio/dot-reporter": "6.0.8",
-    "@wdio/local-runner": "6.0.8",
+    "@wdio/local-runner": "6.0.9",
     "@wdio/sync": "6.0.8",
     "chromedriver": "80.0.1",
     "cucumber": "6.0.5",
