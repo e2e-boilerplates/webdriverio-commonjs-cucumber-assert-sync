@@ -1,0 +1,12 @@
+| referrer                                                                                 | count | uniques |
+| :--------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/actions                            | 11    | 2       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/blob/master/.github/runs_status.md | 7     | 2       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/pull/71                            | 5     | 2       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert                                    | 4     | 2       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/actions/runs/61911207              | 2     | 2       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/runs/529332859                     | 2     | 2       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/actions/runs/62581679              | 2     | 1       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/pull/67                            | 2     | 1       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/runs/531981053                     | 2     | 1       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/tree/master/.github                | 2     | 1       |
