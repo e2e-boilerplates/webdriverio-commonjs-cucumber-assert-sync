@@ -1,12 +1,12 @@
 | referrer                                                                                                | count | uniques |
 | :------------------------------------------------------------------------------------------------------ | :---- | :------ |
-| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/blob/master/.github/runs_status.md                | 8     | 2       |
-| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert                                                   | 7     | 3       |
-| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/actions                                           | 4     | 2       |
-| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/pull/71                                           | 4     | 1       |
-| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/tree/master/.github                               | 3     | 1       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert                                                   | 6     | 3       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/actions                                           | 2     | 2       |
 | /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/blob/master/wdio.conf.js                          | 2     | 2       |
 | /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/actions/runs/70896518                             | 1     | 1       |
 | /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/actions/runs/72305661                             | 1     | 1       |
 | /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/blob/master/features/step_definitions/stepdefs.js | 1     | 1       |
 | /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/blob/master/.github/runs.json                     | 1     | 1       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/blob/master/.github/runs_status.md                | 1     | 1       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/blob/master/package.json                          | 1     | 1       |
+| /e2e-boilerplate/webdriverio-commonjs-cucumber-assert/pull/74                                           | 1     | 1       |
