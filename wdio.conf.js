@@ -7,14 +7,18 @@ const headed = {
       browserName: "chrome",
     },
   ],
-  services: ["chromedriver"],
   logLevel: "silent",
+  services: ["chromedriver"],
   framework: "cucumber",
+  reporters: ["dot"],
+  mochaOpts: {},
+  jasmineNodeOpts: {},
   cucumberOpts: {
     require: ["./features/step_definitions/stepdefs.js"],
     timeout: 60000,
   },
-  reporters: ["dot"],
+  // eslint-disable-next-line no-unused-vars
+  before: (capabilities, specs) => {},
 };
 
 const headless = {
@@ -29,14 +33,18 @@ const headless = {
       },
     },
   ],
-  services: ["chromedriver"],
   logLevel: "silent",
+  services: ["chromedriver"],
   framework: "cucumber",
+  reporters: ["dot"],
+  mochaOpts: {},
+  jasmineNodeOpts: {},
   cucumberOpts: {
     require: ["./features/step_definitions/stepdefs.js"],
     timeout: 60000,
   },
-  reporters: ["dot"],
+  // eslint-disable-next-line no-unused-vars
+  before: (capabilities, specs) => {},
 };
 
 const config = process.env.GITHUB_ACTIONS ? headless : headed;
