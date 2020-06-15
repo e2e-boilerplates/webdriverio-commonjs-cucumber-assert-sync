@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "@wdio/cli": "6.1.17",
-    "@wdio/cucumber-framework": "6.1.17",
+    "@wdio/cucumber-framework": "6.1.18",
     "@wdio/dot-reporter": "6.1.14",
     "@wdio/local-runner": "6.1.17",
     "@wdio/sync": "6.1.14",
