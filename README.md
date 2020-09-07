@@ -2,7 +2,7 @@
     
 # WebdriverIO Boilerplate
     
-WebdriverIO end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Cucumber](https://github.com/cucumber/cucumber-js) and [Commonjs](https://nodejs.org/api/assert.html).
+WebdriverIO end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Cucumber](https://github.com/cucumber/cucumber-js) and [Commonjs](https://nodejs.org/api/assert.html).. Clone or fork this repository.
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/webdriverio-commonjs-cucumber-assert.git
