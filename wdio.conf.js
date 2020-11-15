@@ -1,3 +1,4 @@
+
 const headed = {
   runner: "local",
   path: "/",
@@ -17,8 +18,6 @@ const headed = {
     require: ["./features/step_definitions/stepdefs.js"],
     timeout: 60000,
   },
-  // eslint-disable-next-line no-unused-vars
-  before: (capabilities, specs) => {},
 };
 
 const headless = {
@@ -43,8 +42,6 @@ const headless = {
     require: ["./features/step_definitions/stepdefs.js"],
     timeout: 60000,
   },
-  // eslint-disable-next-line no-unused-vars
-  before: (capabilities, specs) => {},
 };
 
 const config = process.env.GITHUB_ACTIONS ? headless : headed;
